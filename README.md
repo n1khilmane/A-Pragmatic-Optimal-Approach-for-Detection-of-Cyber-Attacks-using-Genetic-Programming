@@ -39,3 +39,18 @@ b. With Crossover Frequency, apply crossover to copies of the winners c. With Mu
 4. Replace the tournament losers with the new offspring. The winners of the tournament are unchanged.
 5. Repeat until a predefined termination criterion has been satisfied, or a fixed number of generations have been explored.
 6. The solution is the genetic program with the best fitness within all the generations.
+
+# Data Acquisition
+
+- Modern DDOS Dataset is used for implementation.
+- A novel Dataset which that contains modern kinds of DDoS attacks.
+- Generated using NS2 Network simulator.
+- The dataset had 2,160,668 number of instances.
+
+# Dataset Classes
+
+- Smurf : The target server receives huge number of ICMP echo requests packet.
+- UDP Flood: A massive amount of UDP traffic is sent to inundate the server.
+- SQL Injection DDOS: Sql sentences are used to flood the server.
+- HTTP Flood: attacker overwhelm the server using HTTP GET/POST methods.
+- Normal transaction data.
