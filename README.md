@@ -26,4 +26,16 @@ the last 12 months due to hardware-or silicon-level security breach
 
 - An Intrusion detection system (IDS) is a software application or hardware appliance that monitors traffic moving on networks and through systems to search for suspicious activity and known threats, sending up alerts when it finds such items.
 
-![IDS](n1khilmane.github.com/A-Pragmatic-Optimal-Approach-for-Detection-of-Cyber-Attacks-using-Genetic-Programming/results/ids.jpg)
+# Genetic Programming
+
+- Executional steps for general GP:
+
+1. Generate an initial population of random compositions of the functions and terminals of the problem
+(computer programs).
+2. Run a tournament, which picks four programs randomly out of the population of programs. It compares them and picks two winners and two losers based on a fitness measure.
+3. Apply the search operators crossover and mutation (and possibly others) to the winners to produce offspring in the following way:
+a. Copy the two winners
+b. With Crossover Frequency, apply crossover to copies of the winners c. With Mutation Frequency, mutate the programs from (a)
+4. Replace the tournament losers with the new offspring. The winners of the tournament are unchanged.
+5. Repeat until a predefined termination criterion has been satisfied, or a fixed number of generations have been explored.
+6. The solution is the genetic program with the best fitness within all the generations.
