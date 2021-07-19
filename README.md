@@ -1,5 +1,11 @@
 ## A genetic Programming Model for detection of Cyberattacks
 
+- We developed a Genetic Programming(GP) model for the detection of cyberattacks. We were successful in getting optimized results with 98.67% accuracy on Modern DDoS dataset. This research analyzes a novel attack and extracts attackers’ intrusion scenarios and demonstrates different types of DDoS attacks such as Smurf, UDP Flood, SQL Injection DDOS, HTTP Flood. This paper was presented at CINTI 2020, Budapest, Hungary, on 5-7 November 2020 and is published in 20th IEEE (Scopus Indexed) International Symposium on Computational Intelligence and informatics.
+
+- Link to paper: https://ieeexplore.ieee.org/document/9305844 
+- Link to event: http://conf.uni-obuda.hu/cinti2020/index.html
+- Link to Paper presentation: https://docs.google.com/presentation/d/11i5XdZ5TtVltKmPbPnDuQ6upZcxSFIkfUa0fYoHx-yU/edit?usp=sharing
+
 # Statistics
 
 - 94% of malware is delivered via mail.
