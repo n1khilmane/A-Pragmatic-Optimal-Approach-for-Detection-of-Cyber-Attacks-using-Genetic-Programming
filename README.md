@@ -54,3 +54,16 @@ b. With Crossover Frequency, apply crossover to copies of the winners c. With Mu
 - SQL Injection DDOS: Sql sentences are used to flood the server.
 - HTTP Flood: attacker overwhelm the server using HTTP GET/POST methods.
 - Normal transaction data.
+
+# Results
+
+- GP implementation depends on various parameters such as population size, no. of generations, crossover and mutation rate, etc.
+- When the population size was considered as 50 with a crossover rate of 0.01, an accuracy of 98.67% was obtained.
+- It was observed that as the no. of generations were increased, the accuracy did not change much.
+
+# Conclusion
+
+- This scientific analysis investigates an application of Genetic Programming (GP) for intrusion detection. For this study, the Modern DDoS dataset is used. This dataset contains contemporary threats gathered from various environments.
+- The proposed GP model detects DDoS attacks with improved accuracy of 98.67% while comparing it with six established classification models. The obtained results highlight the advantages of adopting the GP model.
+- However, it was observed that adopting other approaches for operations such as mutation or crossover can result in better results. Due to limited resources, this was not tested.
+- In future, this model can be investigated for other types of attacks and also to come up with a universal model to detect all kinds of well-known threats.
